@@ -186,12 +186,12 @@ bool SparkFun_ublox_Cellular::begin(HardwareSerial &hardSerial, unsigned long ba
 
     _hardSerial = &hardSerial;
 
-    err = init(baud);
-    if (err == UBX_CELL_ERROR_SUCCESS)
-    {
+//    err = init(baud);
+    //if (err == UBX_CELL_ERROR_SUCCESS)
+    //{
         return true;
-    }
-    return false;
+    //}
+    //return false;
 }
 
 // Calling this function with nothing sets the debug port to Serial
