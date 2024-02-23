@@ -135,12 +135,12 @@ bool SparkFun_ublox_Cellular::begin(SoftwareSerial &softSerial, unsigned long ba
 
     _softSerial = &softSerial;
 
-    err = init(baud);
-    if (err == UBX_CELL_ERROR_SUCCESS)
-    {
+    //err = init(baud);
+    //if (err == UBX_CELL_ERROR_SUCCESS)
+    //{
         return true;
-    }
-    return false;
+    //}
+    //return false;
 }
 #endif
 
